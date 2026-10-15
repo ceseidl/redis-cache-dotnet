@@ -18,7 +18,7 @@ Please include what you found, how to reproduce it and, if possible, a suggested
 
 These are deliberate simplifications of a didactic example (the README lists the main ones):
 
-- The per-client plan is read from the `X-Api-Key` prefix on purpose, to keep the example small. A real system would use a customer registry.
+- The database is simulated and the Redis in `compose.yaml` has no password or TLS, to keep the example small. A real system would use a real database and a protected Redis (private network, authentication, TLS).
 
 Vulnerable dependencies are tracked with Dependabot; a pull request that bumps a package is welcome.
 
@@ -38,6 +38,6 @@ Informe o que encontrou, como reproduzir e, se possível, uma sugestão de corre
 
 São simplificações deliberadas de um exemplo didático (o README lista as principais):
 
-- O plano por cliente é lido do prefixo de `X-Api-Key` de propósito, para manter o exemplo pequeno. Um sistema real usaria um cadastro de clientes.
+- O banco é simulado e o Redis do `compose.yaml` não tem senha nem TLS, para manter o exemplo pequeno. Um sistema real usaria um banco de verdade e um Redis protegido (rede privada, autenticação, TLS).
 
 As dependências vulneráveis são acompanhadas pelo Dependabot; um pull request que atualiza um pacote é bem-vindo.
