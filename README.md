@@ -1,5 +1,7 @@
 # Redis Cache in a .NET Microservice
 
+Full article: <https://ceseidl.com.br/en/artigos/redis-cache-dotnet/>
+
 English | [Português](README.pt-BR.md)
 
 [![CI](https://github.com/ceseidl/redis-cache-dotnet/actions/workflows/ci.yml/badge.svg)](https://github.com/ceseidl/redis-cache-dotnet/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
